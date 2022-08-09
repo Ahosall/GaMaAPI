@@ -1,0 +1,23 @@
+{
+  "name": "gamaapi",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/app",
+    "dev": "nodemon ./src/app"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "mongoose": "^6.5.0",
+    "morgan": "~1.9.1",
+    "ytdl-core": "^4.11.0",
+    "ytpl": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
